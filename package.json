@@ -6,7 +6,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "turbo run format",
-    "prepare": "husky"
+    "prepare": "husky",
+    "start": "node apps/server/dist/app.js"
   },
   "devDependencies": {
     "husky": "^9.1.6",
